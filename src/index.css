@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+:root {
+  /* COLOR */
+  --color-primary: #1e1e1e;
+  --color-secondary: #8b8e99;
+  --color-thirt: #7000ff;
+
+  /* FONT SIZE */
+  --fontsize-small: 12px;
+  --fontsize-medium: 16px;
+  --fontsize-large: 28px;
+}

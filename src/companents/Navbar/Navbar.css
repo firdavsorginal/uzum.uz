@@ -1,0 +1,246 @@
+h2 {
+  color: var(--color-primary);
+  font-size: var(--fontsize-big);
+}
+
+.pad {
+  padding-left: 50px;
+}
+
+.pad1 {
+  padding-right: 50px;
+}
+
+.b1 {
+  padding-left: 10px;
+}
+
+.con {
+  font-size: 12px;
+}
+
+.p2 {
+  color: rgba(0, 0, 0, 0.732);
+}
+
+.p1 {
+  color: rgba(0, 0, 0, 0.6);
+  padding: 0 10px;
+}
+
+.con {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+}
+
+.con>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* NAVBAR_TOP - START */
+.title {
+  font-size: var(--fontsize-small);
+  color: var(--color-secondary);
+}
+
+/* NAVBAR_MIDDLE - START */
+.navbar {
+  padding: 18px 0;
+}
+
+.navbar-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo-link {
+  margin-right: 32px;
+  display: flex;
+}
+
+.navbar-logo {
+  width: 215px;
+  height: 32px;
+}
+
+.navbar-category-btn {
+  display: block;
+  height: 40px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: #f0f0ff;
+  margin-right: 7px;
+}
+
+.navbar-category-btn svg {
+  font-size: 24px;
+  color: var(--color-thirt);
+}
+.navbar-category-btn {
+  margin-left: 10px; /* Qo'shimcha bo'shliq */
+}
+
+.navbar-category-btn span {
+  font-size: 14px;
+  color: var(--color-thirt);
+}
+
+.navbar-search {
+  height: 40px;
+  display: flex;
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 24px;
+}
+
+.navbar-search input {
+  flex: 1;
+  border: none;
+  outline: none;
+  text-indent: 12px;
+  border-radius: 4px;
+}
+
+.navbar-search button {
+  width: 60px;
+  border: none;
+  background-color: #ddd;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
+
+.navbar-search button svg {
+  font-size: 24px;
+}
+
+.navbar-collection {
+  display: flex;
+  gap: 8px;
+}
+
+.navbar-collection-item {
+  display: block;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar-collection-item svg {
+  font-size: 24px;
+  color: var(--color-primary);
+}
+
+.navbar-collection-item span {
+  font-size: 14px;
+  color: var(--color-primary);
+}
+/* NAVBAR_MIDDLE-END */
+
+
+
+.nom {
+  display: flex; /* Elementlarni yonma-yon qo'yadi */
+  justify-content: space-between; /* Ikkala tomon bo'ylab tarqatadi */
+  align-items: center; /* Vertikal markazlash */
+  padding: 10px 20px; /* Ichki bo'sh joy */
+  box-sizing: border-box; /* Paddingni kenglik hisobiga qo'shadi */
+  width: 100%; /* Ekranning to'liq kengligini egallaydi */
+}
+
+.nom img {
+  width: 120px; /* Logo boshlang'ich o'lchami */
+  height: auto; /* Proporsiyani saqlash */
+  transition: all 0.3s ease; /* Silliq moslashish */
+  display: none;
+}
+
+.nom button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color:  var( --color-thirt);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: none;
+}
+.navbarbottom-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  color: var(--color-secondary);
+  overflow-x: scroll;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.navbarbottom-wrapper p {
+  text-wrap: nowrap;
+}
+
+/* NAVBAR_BOTTOM-END */
+
+/* MEDIA */
+@media (max-width: 1000px) {
+  .navbarbottom-wrapper::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  .navbarbottom-wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--color-thirt);
+    border-radius: 10px;
+  }
+}
+@media (max-width: 880px) {
+ 
+
+
+  .nom {
+      padding: 5px 10px; 
+  }
+
+  .nom img {
+      width: 170px; 
+      display: block;
+  }
+
+  .nom button {
+      font-size: 14px; 
+      padding: 8px 16px; 
+      display: block;
+  }
+   .navbar-collection{
+    position: fixed;
+    bottom: 0;
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px 10px 17px;
+   
+   }
+  .del, .navbar-category-btn, .navbar-logo{
+    display: none;
+  }
+  
+}
+
+
+
+
+

@@ -1,0 +1,24 @@
+.con2{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+.apple{
+  width: 30px;
+}
+.img{
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+}
+.con2 > div > p{
+padding-top: 20px;
+}
+.pfoter{
+  color: rgba(0, 0, 0, 0.64);
+}
+.pd{
+  display: flex;
+  align-items: center;
+  gap: 0 15px;
+}
