@@ -325,27 +325,3 @@
     opacity: 0;
   }
 }
-/* Yoqtirish ikonkasi */
-.like-icon {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 24px;
-  color: #ccc; /* Dastlabki rang */
-  cursor: pointer;
-  transition: fill 0.3s ease;
-}
-
-/* Yoqtirilgan mahsulotni bildiradigan holat */
-.like-icon.liked {
-  color: red; /* Yoqtirganda rangni qizilga o'zgartiradi */
-}
-
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}

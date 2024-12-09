@@ -2,7 +2,7 @@ import React from 'react'
 import "./Footer.css"
 const Footer = () => {
   return (
-    <div className='con2'>
+    <div className='con2 container'>
       <div><p>Biz haqimizda</p>
       <p className='pfoter'>Topshirish punktlari</p>
       <p className='pfoter'>Vakansiyalar</p></div>

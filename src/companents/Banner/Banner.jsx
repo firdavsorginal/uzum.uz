@@ -5,9 +5,10 @@ const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
-    '/asaxiy1.webp', 
-    '/asaxiy2.webp',
-    '/asaxiy3.webp',
+    '/uzum1.jpg', 
+    '/uzum2.jpg', 
+    '/uzum3.jpg', 
+   
   ];
 
   const nextSlide = () => {

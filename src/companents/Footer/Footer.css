@@ -1,7 +1,9 @@
 .con2{
   display: flex;
   justify-content: space-between;
-  padding: 0 50px;
+  padding:  70px 0;
+ 
+  
 }
 .apple{
   width: 30px;
